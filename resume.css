@@ -1,0 +1,47 @@
+td:hover{
+  color:white;
+  background:blue;
+}
+table{
+  width:100%;
+  font-size: 30px;
+  text-align: center;
+}
+table,tr,th,td{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+h1.right{
+  padding-left: 5px;
+}
+.left{
+  text-align: center;
+}
+h3{
+  padding-left: 10px;
+}
+.maindiv{
+  background:yellow;
+  display: flex;
+  justify-content: space-between;
+}
+.leftdiv{
+  background:grey;
+  width:23%;
+  position: fixed;
+  height:100%
+}
+.rightdiv{
+  margin-left: 24%;
+  background:lightblue;
+width:75%;
+}
+@media all and (max-width:750px) {
+  body{
+    background:red;
+  }
+  .maindiv{
+    width:100%;
+  }
+}

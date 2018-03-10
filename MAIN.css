@@ -1,0 +1,35 @@
+.mainDiv{
+background:#00ffff;
+display:flex;
+/* display: black; */
+justify-content: space-between;
+}
+.sub1{
+  background:red;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 0 black;
+  border:solid red;
+
+}
+.sub1 img{
+  border-radius: 10px;
+}
+.sub2{
+  background: blue;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 0 black;
+}
+.sub2 img{
+  border-radius: 10px;
+}
+.sub3{
+  background: green;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 0 black;
+}
+.sub3 img{
+  border-radius: 10px;
+}
+body{
+  background-image: url("images/g.jpg.jpg");
+}
